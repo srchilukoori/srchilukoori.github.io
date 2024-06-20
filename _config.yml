@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -28,7 +28,7 @@ author:
   location         : "Menlo Park, CA"
   employer         : "Meta Platforms, Inc."
   uri              : # Url
-  email            : # Email 
+  email            : # Email
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -44,8 +44,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "srchilukoori"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   bluesky          : # Replace this with you Bluesky username
@@ -113,7 +113,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "1tXYH5khxlv83rkkFDEbo5A-RBDODJnbDYbLg4xVtvs"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
