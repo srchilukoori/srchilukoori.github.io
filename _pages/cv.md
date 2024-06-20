@@ -11,28 +11,32 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Mechanical Engineering, University of Utah, 2012
+* B.Tech. in Mechanical Engineering, National Institute of Technology - Srinagar, 2009
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Meta Platforms, Inc (Jan-2024 to Present)
+  * Data Engineer
+  * Menlo Park, CA
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* LendingClub Bank, NA (June-2016 to Jan-2024)
+  * Lead Data Engineer
+  * San Francisco, CA
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Eastbay BI, Inc. (Feb-2013 to Jun-2016)
+  * Sr. Business Intelligence Consultant
+  * San Francisco Bay Area, CA
+
+Professional Membership
+=======================
+* Institute of Electrical and Electronics Engineers
+  * Senior Member (Since 2024)
+
+* Association for Computing Machinery
+  * Professional Member (Since 2022)
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -61,4 +65,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
