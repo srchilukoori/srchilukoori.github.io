@@ -9,18 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* M.S. in Mechanical Engineering, University of Utah, 2012
-* B.Tech. in Mechanical Engineering, National Institute of Technology - Srinagar, 2009
 
 Work experience
 ======
-* Meta Platforms, Inc (Jan-2024 to Present)
+* [Meta Platforms, Inc](https://www.meta.com/) (Jan-2024 to Present)
   * Data Engineer
   * Menlo Park, CA
 
-* LendingClub Bank, NA (June-2016 to Jan-2024)
+* [LendingClub Bank, NA](https://www.lendingclub.com/) (June-2016 to Jan-2024)
   * Lead Data Engineer
   * San Francisco, CA
 
@@ -30,12 +26,20 @@ Work experience
 
 Professional Membership
 =======================
-* Institute of Electrical and Electronics Engineers
+* [Association for Computing Machinery](https://www.acm.org/) (ACM)
+  * Professional Member (Since 2022)
+
+* [Institute of Electrical and Electronics Engineers](https://www.ieee.org/) (IEEE)
   * Senior Member (Since 2024)
 
-* Association for Computing Machinery
-  * Professional Member (Since 2022)
-  
+* [Institution of Electronics and Telecommunication Engineers](https://www.iete.org/aboutiete.html) (IETE)
+  * Fellow (Since 2024)
+
+Education
+======
+* M.S. in Mechanical Engineering, [University of Utah](https://www.utah.edu/), 2012
+* B.Tech. in Mechanical Engineering, [National Institute of Technology - Srinagar](https://nitsri.ac.in/), 2009
+
 <!-- Skills
 ======
 * Skill 1
@@ -50,19 +54,19 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams -->
