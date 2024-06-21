@@ -9,10 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* M.S. in Mechanical Engineering, [University of Utah](https://www.utah.edu/), 2012
-* B.Tech. in Mechanical Engineering, [National Institute of Technology - Srinagar](https://nitsri.ac.in/), 2009
 
 Work experience
 ======
@@ -30,11 +26,19 @@ Work experience
 
 Professional Membership
 =======================
-* [Association for Computing Machinery](https://www.acm.org/)
+* [Association for Computing Machinery](https://www.acm.org/) (ACM)
   * Professional Member (Since 2022)
 
-* [Institute of Electrical and Electronics Engineers](https://www.ieee.org/)
+* [Institute of Electrical and Electronics Engineers](https://www.ieee.org/) (IEEE)
   * Senior Member (Since 2024)
+
+* [Institution of Electronics and Telecommunication Engineers](https://www.iete.org/aboutiete.html) (IETE)
+  * Fellow (Since 2024)
+
+Education
+======
+* M.S. in Mechanical Engineering, [University of Utah](https://www.utah.edu/), 2012
+* B.Tech. in Mechanical Engineering, [National Institute of Technology - Srinagar](https://nitsri.ac.in/), 2009
 
 <!-- Skills
 ======
