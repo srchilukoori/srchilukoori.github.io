@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I work as a Staff Data Engineer in the Ads ML Infrastructure & Governance organization at Meta Platforms, Inc.
+Staff Data Engineer at Meta. 14 years building data platforms.
 
-<!-- I completed my Masters degree from Department of Mechanical Engineering at University of Utah in 2012. My thesis advisor is [Dr. Timothy Ameel](https://www.mech.utah.edu/people/tim-ameel/). -->
+<img src="/images/engineering_strengths_radar.svg" alt="Engineering Role Strengths" style="max-width: 100%; width: 500px; display: block; margin: 1em auto;">
+
+Scored against market-demanded competencies per role. See my [CV](/cv/) for details.
