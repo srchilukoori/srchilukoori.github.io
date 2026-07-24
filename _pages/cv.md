@@ -29,61 +29,9 @@ Technical Skills
 Experience
 ======
 
-### Meta Platforms Inc — Menlo Park, CA
-
-**Staff Data Engineer - Ads ML Infra & Governance** (Jul 2025 – Present)
-
-*500+ Ads ML model types and 45K features lacked unified governance — model health, feature impact, and deprecation candidates were tracked through duplicated, inconsistent queries.*
-
-* Aligned geographically distributed technical leads to standardize MTLC metric definitions, consolidating duplicated query logic into a single source of truth
-* 90% fewer leadership escalations; root cause analysis reduced from hours to minutes through metric standardization and lineage tracing
-* Developed a code review skill after AI-assisted development drove a 3x surge in PR volume — validates coding principles, warehouse entity diagrams, privacy lineage policies, and SQL correctness; adopted by the team for self-review, cutting review time 50%
-* Partnered with XFNs to architect a fault-tolerant oncall triage agent for cascading pipeline failures from capacity crunches; the agent identifies upstream dependency blockers, triggers backfills, and generates schema migration PRs, reducing manual investigation time
-* Scaled the feature importance pipeline from ad-hoc to weekly execution across 45K features and 500 model types, with S3-backed fault tolerance — enabled data science to identify low-impact feature cohorts for deprecation
-* Mentored engineers across levels and functions — from coaching on work visibility during a manager transition, to building a first technical roadmap, to cross-skilling a network engineer into data engineering
-
-**Staff Data Engineer - Marketing Decision Science** (Jan 2024 – Jul 2025)
-
-*Campaign spend across 50+ media channels had no unified platform — ingestion was manual, vendor data lagged weeks, and accuracy was unvalidated.*
-
-* Designed and built the Media Warehouse, a unified data platform tracking multi-hundred-million-dollar marketing spend across 50+ online and offline channels covering US and Europe
-* Evaluated vendor data delivery via SFTP, identified ±30% accuracy gaps, and advocated for direct API ingestion — reduced data onboarding from 6 weeks to days
-* Built an ingestion module pulling campaign spend from Google Ads, DCM, Reddit, TikTok, and Snapchat, normalizing spend, impression, and conversion metrics into a common schema
-* Codified data quality checks in Python and advised agency partners on implementing validation standards to catch precision and format errors before delivery
-* Reduced campaign spend data discrepancy from ±30% to within 5% of planned budgets, enabling the central data science team to launch media-mix modeling for Instagram campaigns
-
-### LendingClub Bank NA — San Francisco, CA
-
-**Lead Data Engineer, Analytics** (Sep 2021 – Dec 2023)
-
-*Analytics infrastructure faced scaling bottlenecks — manual job scheduling, fragmented data across on-prem lake and Snowflake, and no standardized pipeline framework.*
-
-* Steered the architectural migration from the on-prem data lake to Snowflake, aligning engineering teams on PySpark, external tables, and Iceberg/Delta formats
-* Developed a reusable Airflow operator framework replacing Hue schedules, enabling teams to schedule SQL, HQL, Python, and Snowflake jobs through git-reviewed config without writing custom DAGs, and retiring ~80 redundant service accounts as an infosec improvement
-* Influenced engineering leadership to transition the credit evaluation pipeline from Spark to Ray Data — Spark executors had been idling during API calls while holding partitioned data for 5M profiles; Ray's 300 concurrent workers and streaming write-back cut compute from 125 EC2 instances and 24 hours to a single instance in 2 hours
-* Engineered a distributed compaction service with the platform team — a Scala crawler identified fragmented partitions across 8K+ tables and 5M+ files, persisted state to DynamoDB, while Lambda functions orchestrated concurrent Spark compaction jobs, restoring 4–10x query performance
-* Extended the service to detect and rewrite ORC files with an invalid timezone, unblocking Snowflake external table access for data science and ML workloads
-* Led pipeline optimization workshops and code reviews for Hive, Spark, PySpark, and Airflow DAGs
-
-**Sr. Data Engineer, Analytics** (Oct 2019 – Aug 2021)
-
-*Marketing and product teams were blocked on manual processes — no self-service data infrastructure, no automated tooling for faster decision cycles.*
-
-* Automated SEM keyword and auction bid management with Python and the Google Ads API, replacing days of manual effort
-* Delivered a profitability data mart in Hive and Presto allocating expenses across loan lifecycle stages (leads, marketing, credit review, origination, servicing), revealing $0.5M/year in wasted lead-channel spend on credit-score segments excluded from the lending program
-* Built a repeat-borrower identification system in Python serving product, marketing, and credit risk teams
-
-### Earlier Experience
-
-**Sr. Business Intelligence Developer** — LendingClub Bank NA, San Francisco, CA (Jun 2016 – Sep 2019)
-
-**Sr. Business Intelligence Consultant** — EastBay BI Inc., San Jose, CA (Jan 2013 – May 2016)
-
-*Clients: IDT (semiconductors), Cisco Systems (networking), Nexeo Solutions (chemical distribution).*
-
-* Designed star-schema and bridge-table data models for operational reporting across lending operations, semiconductor manufacturing, and enterprise networking
-* Created executive dashboards for investment operations, chip development lifecycle, and service revenue tracking
-* Led BI platform migrations across multiple environments: Informix-to-Oracle, SAP-to-QlikView, and QlikView server infrastructure scaling
+* **Meta Platforms Inc** — Staff Data Engineer (Jan 2024 – Present)
+* **LendingClub Bank NA** — Lead Data Engineer, Analytics (Oct 2019 – Dec 2023)
+* **EastBay BI Inc.** — Sr. Business Intelligence Consultant (Jan 2013 – May 2016)
 
 Open Source Contributions
 ======
